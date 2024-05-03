@@ -1,0 +1,17 @@
+button{
+    background-color: dodgerblue;
+    border: 2px solid whitesmoke;
+    padding: 1rem;
+    color: white;
+    &:hover{
+        background-color: rgb(68,68,68);
+        transition: all 0.5s;
+    }
+    border-radius: 10px;
+}
+input{
+    border: 2px solid red;
+    padding: 0.8rem;
+    background-color: cadetblue;
+    color: white;
+}
